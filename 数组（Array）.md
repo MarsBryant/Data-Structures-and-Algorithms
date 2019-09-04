@@ -2,6 +2,8 @@
 
 浅谈数组越界
 分析下如下代码运行结果
+
+```C
 #include<stdio.h>
 int main(int argc, char* argv[]){
     int i = 0;
@@ -12,6 +14,7 @@ int main(int argc, char* argv[]){
     }
     return 0;
 }
+```
 
 如果使用gcc编译后执行，输出：
 hello world
