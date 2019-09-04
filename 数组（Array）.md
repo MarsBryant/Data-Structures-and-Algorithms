@@ -43,7 +43,7 @@ int main (int argc, char * argv[])
     return 0;
 }
 ```
-运行结果如下：  
+运行结果如下：    
 &i= 0x7fff134a38fc  
 &arr[0]= 0x7fff134a3900  
 &arr[1]= 0x7fff134a3904  
@@ -52,7 +52,7 @@ int main (int argc, char * argv[])
 gcc默认情况下开启堆栈保护功能，整形变量i都会在数组之后压栈（不管i定义在数组前还是数组后），所以只会循环四次。  
 我们将gcc堆栈保护功能关闭，执行上述代码  
 gcc -fno-stack-protector  test.c   
-运行结果：
+运行结果：  
 &i= 0x7fff48a2342c  
 &arr[0]= 0x7fff48a23420  
 &arr[1]= 0x7fff48a23424  
