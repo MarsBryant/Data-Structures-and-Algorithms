@@ -65,5 +65,5 @@ hello world
 ...  
 会出现死循环情况，其中arr[3]得到的是i的地址，将i重新赋值成0，从而导致死循环。
 
-参考：https://www.ibm.com/developerworks/cn/linux/l-cn-gccstack/index.html
+[GCC 中的编译器堆栈保护技术](https://www.ibm.com/developerworks/cn/linux/l-cn-gccstack/index.html)
 
