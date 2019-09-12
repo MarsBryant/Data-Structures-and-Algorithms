@@ -15,6 +15,7 @@ Could you do this in one pass?
 这道题目让我们移除链表倒数第n个结点，且给出的n是永远有效的，即n不会大于链表长度，要求只能用一次遍历解决。  
 我们使用两个指针cur和front,先让cur走n步，如果cur为空，则表示n为链表长度，需要移除头结点，直接返回head.next即可；如果cur不为空，让front指向头结点，font和cur指针同时向后移动，当cur.next为空时，表示走到链表尾部，此时font指向的是需要移除结点的前结点，移除font指向的下一个结点即可，font.next = font.next.next。
 
+#### Java解法：
 ```Java
 /**
  * Definition for singly-linked list.
@@ -44,6 +45,7 @@ class Solution {
     }
 }
 ```
+#### C解法：
 ```C
 /**
  * Definition for singly-linked list.
