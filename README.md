@@ -20,6 +20,7 @@
 234.[Palindrome Linked List](/Linked%20list/回文链表.md)  
 237.[Delete Node in a Linked List](/Linked%20list/删除链表的节点.md)  
 445.[Add Two Numbers II](/Linked%20list/两个数字相加之二.md)  
+707.[Design Linked List](/Linked%20list/设计链表.md)  
 876.[Middle of the Linked List](/Linked%20list/链表的中间结点.md)  
 
 ### Stack  
