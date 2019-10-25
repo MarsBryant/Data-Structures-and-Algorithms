@@ -14,6 +14,8 @@
 92.[Reverse Linked List II](/Linked%20list/倒置链表之二.md)   
 141.[Linked List Cycle](/Linked%20list/单链表中的环.md)  
 142.[Linked List Cycle II](/Linked%20list/单链表中的环之二.md)  
+160.[Intersection of Two Linked Lists](/Linked%20list/求两个链表的交点.md)  
+203.[Remove Linked List Elements](/Linked%20list/移除链表元素.md)  
 206.[Reverse Linked List](/Linked%20list/倒置链表.md)  
 234.[Palindrome Linked List](/Linked%20list/回文链表.md)  
 237.[Delete Node in a Linked List](/Linked%20list/删除链表的节点.md)  
