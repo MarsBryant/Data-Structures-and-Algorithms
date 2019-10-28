@@ -24,3 +24,4 @@
 876.[Middle of the Linked List](/Linked%20list/链表的中间结点.md)  
 
 ### Stack  
+### Sort  
